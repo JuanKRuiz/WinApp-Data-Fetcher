@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.20827.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinApp Data Fetcher", "WinApp Data Fetcher\WinApp Data Fetcher.csproj", "{0E940657-1269-4FAF-909E-6B36496618D7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppDataCreatorClientSample", "WinApp Data Fetcher Client\AppDataCreatorClientSample.csproj", "{764C571F-3D1D-4900-BF94-CE20FCF916DA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Clients", "Clients", "{161B155E-EF36-43FD-BAEA-B0A976D7A68F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0E940657-1269-4FAF-909E-6B36496618D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E940657-1269-4FAF-909E-6B36496618D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E940657-1269-4FAF-909E-6B36496618D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E940657-1269-4FAF-909E-6B36496618D7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{764C571F-3D1D-4900-BF94-CE20FCF916DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{764C571F-3D1D-4900-BF94-CE20FCF916DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{764C571F-3D1D-4900-BF94-CE20FCF916DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{764C571F-3D1D-4900-BF94-CE20FCF916DA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{764C571F-3D1D-4900-BF94-CE20FCF916DA} = {161B155E-EF36-43FD-BAEA-B0A976D7A68F}
+	EndGlobalSection
+EndGlobal
