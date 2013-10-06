@@ -26,12 +26,13 @@ Console.WriteLine(appData);
 
 This will produce the following output
 
-           GUID:d2d17da2-e6ad-4b6b-bdcd-ffdea39ba78d
-           Name:Magic Ghost Hunter
-           Author:deltayeisson
-           StoreUri:http://www.windowsphone.com/es-co/store/app/dummy/d2d17da2-e6ad-4b6b-bdcd-ffdea39ba78d
-           ThumbnailUri:http://cdn.marketplaceimages.windowsphone.com/v8/images/bbb6a2d3-7dbd-4727-9aa7-8d006346e9ad?imageType=ws_icon_large
-
+```
+GUID:d2d17da2-e6ad-4b6b-bdcd-ffdea39ba78d
+Name:Magic Ghost Hunter
+Author:deltayeisson
+StoreUri:http://www.windowsphone.com/es-co/store/app/dummy/d2d17da2-e6ad-4b6b-bdcd-ffdea39ba78d
+ThumbnailUri:http://cdn.marketplaceimages.windowsphone.com/v8/images/bbb6a2d3-7dbd-4727-9aa7-8d006346e9ad?imageType=ws_icon_large
+```
 ###Fecthing multiple Apps Data
 
 ```csharp
@@ -53,21 +54,22 @@ foreach (var app in appData)
 
 This will produce the following output
 
-           GUID:f4232c0b-24e5-4f01-b8bb-69a892d06e28
-           Name:Colsanitas
-           Author:Organización Sanitas Internacional
-           StoreUri:http://www.windowsphone.com/es-co/store/app/dummy/f4232c0b-24e5-4f01-b8bb-69a892d06e28
-           ThumbnailUri:http://cdn.marketplaceimages.windowsphone.com/v8/images/653f8a8a-1e9f-4c13-b9dd-f9718879bfec?imageType=ws_icon_large
-           
-           __________________________
-           GUID:d2d17da2-e6ad-4b6b-bdcd-ffdea39ba78d
-           Name:Magic Ghost Hunter
-           Author:deltayeisson
-           StoreUri:http://www.windowsphone.com/es-co/store/app/dummy/d2d17da2-e6ad-4b6b-bdcd-ffdea39ba78d
-           ThumbnailUri:http://cdn.marketplaceimages.windowsphone.com/v8/images/bbb6a2d3-7dbd-4727-9aa7-8d006346e9ad?imageType=ws_icon_large
-           
-           __________________________
+```
+GUID:f4232c0b-24e5-4f01-b8bb-69a892d06e28
+Name:Colsanitas
+Author:Organización Sanitas Internacional
+StoreUri:http://www.windowsphone.com/es-co/store/app/dummy/f4232c0b-24e5-4f01-b8bb-69a892d06e28
+ThumbnailUri:http://cdn.marketplaceimages.windowsphone.com/v8/images/653f8a8a-1e9f-4c13-b9dd-f9718879bfec?imageType=ws_icon_large
 
+__________________________
+GUID:d2d17da2-e6ad-4b6b-bdcd-ffdea39ba78d
+Name:Magic Ghost Hunter
+Author:deltayeisson
+StoreUri:http://www.windowsphone.com/es-co/store/app/dummy/d2d17da2-e6ad-4b6b-bdcd-ffdea39ba78d
+ThumbnailUri:http://cdn.marketplaceimages.windowsphone.com/v8/images/bbb6a2d3-7dbd-4727-9aa7-8d006346e9ad?imageType=ws_icon_large
+
+__________________________
+```
 
 Where to find App Guids?
 ------------------------
