@@ -7,8 +7,8 @@
     <ProjectGuid>{0E940657-1269-4FAF-909E-6B36496618D7}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>AppDataCreator</RootNamespace>
-    <AssemblyName>AppDataCreator</AssemblyName>
+    <RootNamespace>WinAppDataFetcher</RootNamespace>
+    <AssemblyName>WinAppDataFetcher</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <SolutionDir Condition="$(SolutionDir) == '' Or $(SolutionDir) == '*Undefined*'">..\</SolutionDir>

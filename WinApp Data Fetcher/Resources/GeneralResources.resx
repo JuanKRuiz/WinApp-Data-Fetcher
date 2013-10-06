@@ -123,8 +123,7 @@
   <data name="TempURI" xml:space="preserve">
     <value>http://www.tempuri.org</value>
   </data>
-  <data name="InternetRequiredException" xml:space="preserve">
+  <data name="InternetRequiredForAppsDataException" xml:space="preserve">
     <value>Getting data for Apps require internet connection</value>
-    <comment>InternetRequiredException description</comment>
   </data>
 </root>

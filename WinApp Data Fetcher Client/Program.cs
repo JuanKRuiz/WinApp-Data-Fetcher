@@ -12,7 +12,7 @@ using System.Net;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace AppDataCreatorClient
+namespace WinAppDataFetcherClient
 {
     /// <summary>This tool uses two files with app GUIDs and get information of this apps using WinApp Data Fetcher.
     /// Then exports all information to json files</summary>
