@@ -3,11 +3,11 @@
  * Date           : 2013-09-15
  * ------------------------------------
  */
-using AppDataCreator.AppKind;
+using WinAppDataFetcher.AppKind;
 using CsQuery;
 using System;
 
-namespace AppDataCreator.Parsing.Behaviors
+namespace WinAppDataFetcher.Parsing.Behaviors
 {
     /// <summary>Behavior used to get information to windows store apps</summary>
     public class PhoneStoreBehavior : StoreBehavior

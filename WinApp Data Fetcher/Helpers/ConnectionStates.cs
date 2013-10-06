@@ -1,6 +1,6 @@
 using System;
 
-namespace AppDataCreator.Helpers
+namespace Helpers
 {
     /// <summary>Network Connection states</summary>
     [Flags]

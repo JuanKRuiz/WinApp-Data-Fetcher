@@ -3,7 +3,7 @@
  * Date           : 2013-09-15
  * ------------------------------------
  */
-namespace AppDataCreator.AppKind
+namespace WinAppDataFetcher.AppKind
 {
     /// <summary>Kind of apps supported</summary>
     public enum AppKinds

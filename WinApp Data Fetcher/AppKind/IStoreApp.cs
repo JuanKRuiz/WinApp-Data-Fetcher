@@ -5,7 +5,7 @@
  */
 using System;
 
-namespace AppDataCreator.AppKind
+namespace WinAppDataFetcher.AppKind
 {
     /// <summary>Define common information available for an application</summary>
     public interface IStoreApp

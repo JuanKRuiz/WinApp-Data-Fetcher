@@ -4,12 +4,12 @@
  * ------------------------------------
  */
 
-using AppDataCreator.Resources;
+using WinAppDataFetcher.Resources;
 using Extenders;
 using Newtonsoft.Json;
 using System;
 
-namespace AppDataCreator.AppKind
+namespace WinAppDataFetcher.AppKind
 {
     /// <summary>Windows Store app information</summary>
     public class WindowsStoreApp : IStoreApp

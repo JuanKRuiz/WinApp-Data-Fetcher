@@ -4,12 +4,12 @@
  * ------------------------------------
  */
 
-using AppDataCreator.AppKind;
+using WinAppDataFetcher.AppKind;
 using CsQuery;
 using System;
 using System.Text.RegularExpressions;
 
-namespace AppDataCreator.Parsing.Behaviors
+namespace WinAppDataFetcher.Parsing.Behaviors
 {
     /// <summary>Behavior used to get information to windows store apps</summary>
     public class WindowsStoreBehavior : StoreBehavior

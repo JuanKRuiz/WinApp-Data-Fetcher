@@ -8,7 +8,8 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace AppDataCreator.Resources {
+namespace WinAppDataFetcher.Resources
+{
     using System;
     
     

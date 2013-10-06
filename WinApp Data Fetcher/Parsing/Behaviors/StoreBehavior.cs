@@ -3,11 +3,12 @@
  * Date           : 2013-09-15
  * ------------------------------------
  */
-using AppDataCreator.AppKind;
+using WinAppDataFetcher.AppKind;
 using CsQuery;
 using System;
 using System.Configuration;
-namespace AppDataCreator.Parsing.Behaviors
+
+namespace WinAppDataFetcher.Parsing.Behaviors
 {
     /// <summary>Define base structure and methods for all behaviors</summary>
     /// <remarks>Each store needs their own behavior to setup configuration and 

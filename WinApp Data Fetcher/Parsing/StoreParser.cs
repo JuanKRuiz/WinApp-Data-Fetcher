@@ -4,10 +4,10 @@
  * ------------------------------------
  */
 
-using AppDataCreator.AppKind;
-using AppDataCreator.Parsing.Behaviors;
-using AppDataCreator.Resources;
-using AppDataCreator.Helpers;
+using WinAppDataFetcher.AppKind;
+using WinAppDataFetcher.Parsing.Behaviors;
+using WinAppDataFetcher.Resources;
+using Helpers;
 using CsQuery;
 using System;
 using System.Collections.Generic;
@@ -15,7 +15,7 @@ using System.Net.Http;
 using System.Threading.Tasks;
 using System.Net;
 
-namespace AppDataCreator.Parsing
+namespace WinAppDataFetcher.Parsing
 {
     /// <summary>Is the parsing engine offering base functionality.
     /// this component needs behaviors to execute particular steps on each app kind</summary>

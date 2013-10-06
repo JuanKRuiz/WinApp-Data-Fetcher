@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Runtime.InteropServices;
 
-namespace AppDataCreator.Helpers
+namespace Helpers
 {
     /// <summary>A collection of useful methods about netwotk tasks</summary>
     public static class NetWorkHelper

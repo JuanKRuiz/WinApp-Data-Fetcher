@@ -5,7 +5,7 @@ VisualStudioVersion = 12.0.20827.3
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinApp Data Fetcher", "WinApp Data Fetcher\WinApp Data Fetcher.csproj", "{0E940657-1269-4FAF-909E-6B36496618D7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppDataCreatorClientSample", "WinApp Data Fetcher Client\AppDataCreatorClientSample.csproj", "{764C571F-3D1D-4900-BF94-CE20FCF916DA}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinApp Data Fetcher Client", "WinApp Data Fetcher Client\WinApp Data Fetcher Client.csproj", "{764C571F-3D1D-4900-BF94-CE20FCF916DA}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Clients", "Clients", "{161B155E-EF36-43FD-BAEA-B0A976D7A68F}"
 EndProject

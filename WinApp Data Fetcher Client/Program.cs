@@ -3,8 +3,8 @@
  * Date           : 2013-09-15
  * ------------------------------------
  */
-using AppDataCreator.Parsing;
-using AppDataCreator.Parsing.Behaviors;
+using WinAppDataFetcher.Parsing;
+using WinAppDataFetcher.Parsing.Behaviors;
 using Newtonsoft.Json;
 using System;
 using System.IO;

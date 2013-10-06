@@ -4,9 +4,9 @@
  * ------------------------------------
  */
 
-using AppDataCreator.AppKind;
-using AppDataCreator.Parsing;
-using AppDataCreator.Parsing.Behaviors;
+using WinAppDataFetcher.AppKind;
+using WinAppDataFetcher.Parsing;
+using WinAppDataFetcher.Parsing.Behaviors;
 using System;
 using System.Collections.Generic;
 
