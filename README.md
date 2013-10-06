@@ -14,12 +14,19 @@ You only need to know two things about an App
 Usage Example
 -------------
 
-`
-var phoneGuid = "6908b8c1-c106-496a-a5e3-004322baecc7";
-var parser = new StoreParser(new PhoneStoreBehavior());
+           var phoneGuid = "d2d17da2-e6ad-4b6b-bdcd-ffdea39ba78d";
+           var parser = new StoreParser(new PhoneStoreBehavior());
+                      
+           IStoreApp appData = await parser.GetStoreAppDataAsync(phoneGuid);
            
-IStoreApp appData = await parser.GetStoreAppDataAsync(phoneGuid);
+           Console.WriteLine(appData);
 
-Console.WriteLine(appData);
-`
+###This will produce this output
 
+>GUID:d2d17da2-e6ad-4b6b-bdcd-ffdea39ba78d
+Name:Magic Ghost Hunter
+Author:deltayeisson
+StoreUri:http://www.windowsphone.com/es-co/store/app/dummy/d2d17da2-e6ad-4b6b-bd
+cd-ffdea39ba78d
+ThumbnailUri:http://cdn.marketplaceimages.windowsphone.com/v8/images/bbb6a2d3-7d
+bd-4727-9aa7-8d006346e9ad?imageType=ws_icon_large
