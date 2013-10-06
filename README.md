@@ -15,13 +15,14 @@ Usage Examples
 --------------
 
 ### Fetching One App Data
-
+```csharp
            var phoneGuid = "d2d17da2-e6ad-4b6b-bdcd-ffdea39ba78d";
            var parser = new StoreParser(new PhoneStoreBehavior());
                       
            IStoreApp appData = await parser.GetStoreAppDataAsync(phoneGuid);
            
            Console.WriteLine(appData);
+```
 
 This will produce the following output
 
