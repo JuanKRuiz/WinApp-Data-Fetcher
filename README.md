@@ -78,12 +78,27 @@ Same thing for this Windows Store App
 http://apps.microsoft.com/windows/en-us/app/city-defend/**dda9a3b7-01cf-4ce7-a268-128712d7fcdd**
 
 
-WinApp Data Fetcher Client && Exporting App information to JSon
----------------------------------------------------------------
+WinApp Data Fetcher Client
+--------------------------
+### Exporting App information to JSon
 
+Solution Includes "WinApp Data Fetcher Client" a small console tool that serialize App Data in a JSon formatted file.
+
+This tool read this files from same executable directory
+
+- win.input   : contains a list of Guids for Windows Store Apps
+- phone.input : contains a list of Guids for Windows Phone Apps
+
+Both files are optional.
+
+The tool generates an output file for each of .input files contaning JSon Data for each corresponfing App on related store.
+
+- win.json
+- phone.json
 
 Features
 --------
 * Async operations: each web call runs in a diferent thread
 * Support Windows Phone and Windows Store Apps
 * Created to be extensible
+* Included console client tool "WinApp Data Fecther Client"
