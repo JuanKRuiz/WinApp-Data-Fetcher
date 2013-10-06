@@ -77,6 +77,11 @@ Same thing for this Windows Store App
 
 http://apps.microsoft.com/windows/en-us/app/city-defend/**dda9a3b7-01cf-4ce7-a268-128712d7fcdd**
 
+
+WinApp Data Fetcher Client && Exporting App information to JSon
+---------------------------------------------------------------
+
+
 Features
 --------
 * Async operations: each web call runs in a diferent thread
