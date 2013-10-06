@@ -74,14 +74,14 @@ __________________________
 Where to find App Guids?
 ------------------------
 
-Guids are easily located in each App web page in the store. This is a link from a Windows Phone App, bold part is the Guid:
+Guids are easily located in each App web page in the store. This is a link from a Windows Phone App, final part is the Guid:
 
-www.windowsphone.com/es-co/store/app/colsanitas/**f4232c0b-24e5-4f01-b8bb-69a892d06e28**
+www.windowsphone.com/es-co/store/app/colsanitas/f4232c0b-24e5-4f01-b8bb-69a892d06e28
 
 
 Same thing for this Windows Store App
 
-http://apps.microsoft.com/windows/en-us/app/city-defend/**dda9a3b7-01cf-4ce7-a268-128712d7fcdd**
+http://apps.microsoft.com/windows/en-us/app/city-defend/dda9a3b7-01cf-4ce7-a268-128712d7fcdd
 
 
 WinApp Data Fetcher Client
