@@ -5,6 +5,7 @@
  */
 
 using AppDataCreator.Resources;
+using Extenders;
 using Newtonsoft.Json;
 using System;
 
@@ -40,6 +41,11 @@ namespace AppDataCreator.AppKind
         {
             Author = Name = GUID = string.Empty;
             StoreUri = ThumbnailUri = new Uri(GeneralResources.TempURI);
+        }
+
+        public override string ToString()
+        {
+            return this.PublicPopertiesToString();
         }
     }
 }

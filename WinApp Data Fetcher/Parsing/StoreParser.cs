@@ -44,7 +44,7 @@ namespace AppDataCreator.Parsing
         /// <param name="appGuid">App unique Id, doesn't matter the app kind. Method resolves app kind itself using
         /// StoreBehavior property</param>
         /// <returns>A complete IStoreApp compatible object</returns>
-        public async Task<IStoreApp> GetStoreAppData(string appGuid)
+        public async Task<IStoreApp> GetStoreAppDataAsync(string appGuid)
         {
             string htmlContents = string.Empty;
             //using behavior factory this return the right object type for each app kind
@@ -92,7 +92,7 @@ namespace AppDataCreator.Parsing
             
             Parallel.ForEach(appGuidCollection, (appGuid) =>
             {
-                storeAppCollection.Add(GetStoreAppData(appGuid).Result);
+                storeAppCollection.Add(GetStoreAppDataAsync(appGuid).Result);
             });
 
             return storeAppCollection;
