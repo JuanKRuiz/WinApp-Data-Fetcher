@@ -35,20 +35,20 @@ This will produce the following output
 ###Fecthing multiple Apps Data
 
 ```csharp
-           List<string> phoneGuids = new List<string>() 
-                                            {"d2d17da2-e6ad-4b6b-bdcd-ffdea39ba78d",
-                                             "f4232c0b-24e5-4f01-b8bb-69a892d06e28"};
-           
-           var parser = new StoreParser(new PhoneStoreBehavior());
-           
-           //this will open a Thread (Task) for each Guid in list
-           IEnumerable<IStoreApp> appData = parser.GetStoreAppDataCollection(phoneGuids);
-           
-           foreach (var app in appData)
-           {
-               Console.WriteLine(app);
-               Console.WriteLine("__________________________");               
-           }
+List<string> phoneGuids = new List<string>() 
+                                 {"d2d17da2-e6ad-4b6b-bdcd-ffdea39ba78d",
+                                  "f4232c0b-24e5-4f01-b8bb-69a892d06e28"};
+
+var parser = new StoreParser(new PhoneStoreBehavior());
+
+//this will open a Thread (Task) for each Guid in list
+IEnumerable<IStoreApp> appData = parser.GetStoreAppDataCollection(phoneGuids);
+
+foreach (var app in appData)
+{
+    Console.WriteLine(app);
+    Console.WriteLine("__________________________");               
+}
 ```
 
 This will produce the following output
