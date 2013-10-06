@@ -16,12 +16,12 @@ Usage Examples
 
 ### Fetching One App Data
 ```csharp
-           var phoneGuid = "d2d17da2-e6ad-4b6b-bdcd-ffdea39ba78d";
-           var parser = new StoreParser(new PhoneStoreBehavior());
-                      
-           IStoreApp appData = await parser.GetStoreAppDataAsync(phoneGuid);
+var phoneGuid = "d2d17da2-e6ad-4b6b-bdcd-ffdea39ba78d";
+var parser = new StoreParser(new PhoneStoreBehavior());
            
-           Console.WriteLine(appData);
+IStoreApp appData = await parser.GetStoreAppDataAsync(phoneGuid);
+
+Console.WriteLine(appData);
 ```
 
 This will produce the following output
@@ -34,6 +34,7 @@ This will produce the following output
 
 ###Fecthing multiple Apps Data
 
+```csharp
            List<string> phoneGuids = new List<string>() 
                                             {"d2d17da2-e6ad-4b6b-bdcd-ffdea39ba78d",
                                              "f4232c0b-24e5-4f01-b8bb-69a892d06e28"};
@@ -48,6 +49,7 @@ This will produce the following output
                Console.WriteLine(app);
                Console.WriteLine("__________________________");               
            }
+```
 
 This will produce the following output
 
