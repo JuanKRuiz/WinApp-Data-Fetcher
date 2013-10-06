@@ -34,8 +34,8 @@ This will produce the following output
 ###Fecthing multiple Apps Data
 
            List<string> phoneGuids = new List<string>() 
-                                   {"d2d17da2-e6ad-4b6b-bdcd-ffdea39ba78d",
-                                       "f4232c0b-24e5-4f01-b8bb-69a892d06e28"};
+                                            {"d2d17da2-e6ad-4b6b-bdcd-ffdea39ba78d",
+                                             "f4232c0b-24e5-4f01-b8bb-69a892d06e28"};
            
            var parser = new StoreParser(new PhoneStoreBehavior());
            
@@ -65,3 +65,20 @@ This will produce the following output
            
            __________________________
 
+
+Where to find App Guids?
+------------------------
+
+Guids are easily located in each App web page in the store. This is a link from a Windows Phone App, bold part is the Guid:
+
+http://www.windowsphone.com/es-co/store/app/colsanitas/**f4232c0b-24e5-4f01-b8bb-69a892d06e28**
+
+Same thing for this Windows Store App
+
+http://apps.microsoft.com/windows/en-us/app/city-defend/**dda9a3b7-01cf-4ce7-a268-128712d7fcdd**
+
+Features
+--------
+* Async operations: each web call runs in a diferent thread
+* Support Windows Phone and Windows Store Apps
+* Created to be extensible
