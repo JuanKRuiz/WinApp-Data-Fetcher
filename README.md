@@ -76,9 +76,8 @@ Where to find App Guids?
 
 Guids are easily located in each App web page in the store. This is a link from a Windows Phone App, bold part is the Guid:
 
-```
-http://www.windowsphone.com/es-co/store/app/colsanitas/**f4232c0b-24e5-4f01-b8bb-69a892d06e28**
-```
+www.windowsphone.com/es-co/store/app/colsanitas/**f4232c0b-24e5-4f01-b8bb-69a892d06e28**
+
 
 Same thing for this Windows Store App
 
