@@ -1,7 +1,7 @@
 WinApp Data Fetcher
 ===================
 
-Is a full asynchronous C# library used to get information about **Windows Phone** or **Windows Store Apps**. 
+Is a full asynchronous C# library used to get information about **Windows Phone** or **Windows Store Apps** getting from the App store web site. 
 
 App information is obtained fetching it through internet visiting each App Store web page, 
 his allows you get updated infomation for every app you want and uses this information in your any way.
